@@ -1,0 +1,4 @@
+.btn-quote:active {
+    transform: translate(0, 0.2rem);
+    box-shadow: 0 0.05rem rgba(0, 0, 0, 0.7);
+}

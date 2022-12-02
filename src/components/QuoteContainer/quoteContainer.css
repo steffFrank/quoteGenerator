@@ -3,5 +3,6 @@
     padding: 20px;
     border-radius: 10px;
     box-shadow: 10px 10px 10px rgba(0,0,0,0.7);
-    background-color: rgba(255,255,255,0.4);
+    background-color: rgb(131, 109, 166, 0.7);
+    color: whitesmoke;
 }

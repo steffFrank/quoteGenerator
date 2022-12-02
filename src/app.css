@@ -6,3 +6,17 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.btn {
+    padding: 5px 20px;
+    border: none;
+    box-shadow: 0 0.2rem rgba(0, 0, 0, 0.3);
+    font-weight: bolder;
+    background-color: #836da6;
+    color: whitesmoke;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    filter:brightness(130%);
+}

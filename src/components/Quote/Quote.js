@@ -12,8 +12,8 @@ export const Quote = () => {
                 <p className="quote__author">Buddha</p>
             </p>
             <div className="btn-container">
-                <NewQuote />
                 <TwitterBtn />
+                <NewQuote />
             </div>
         </>
     )

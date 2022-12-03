@@ -1,7 +1,7 @@
 import React from "react";
-import "./newQuote.css";
+import "./newQuoteBtn.css";
 
-export const NewQuote = () => {
+export const NewQuoteBtn = () => {
     return (
         <button className="btn btn-quote">
            New Quote

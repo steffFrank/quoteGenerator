@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/steffFrank/quoteGenerator/static/css/main.73cf5952.css",
+    "main.js": "/steffFrank/quoteGenerator/static/js/main.e9631f75.js",
+    "index.html": "/steffFrank/quoteGenerator/index.html",
+    "main.73cf5952.css.map": "/steffFrank/quoteGenerator/static/css/main.73cf5952.css.map",
+    "main.e9631f75.js.map": "/steffFrank/quoteGenerator/static/js/main.e9631f75.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73cf5952.css",
+    "static/js/main.e9631f75.js"
+  ]
+}

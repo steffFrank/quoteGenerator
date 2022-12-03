@@ -15,6 +15,7 @@ body {
     background-color: #836da6;
     color: whitesmoke;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .btn:hover {

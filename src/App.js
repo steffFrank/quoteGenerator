@@ -25,7 +25,7 @@ const App = () => {
     }, [])
 
     return (
-        isLoading ? <div>loading...</div> : <QuoteContainer quotes={quotes}/>  
+        isLoading ? <LoadingSpinner /> : <QuoteContainer quotes={quotes}/>  
     )
 }
 

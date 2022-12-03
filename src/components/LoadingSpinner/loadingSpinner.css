@@ -1,0 +1,12 @@
+@keyframes spin {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+
+
+.fa-spinner {
+    font-size: clamp(2rem, 15vw, 7rem);
+    color: rgb(131, 109, 166);
+    animation: spin 0.7s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite;
+}
+

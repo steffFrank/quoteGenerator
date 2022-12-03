@@ -1,6 +1,6 @@
 {
   "name": "quote_generator",
-  "homepage": "https://github.com/steffFrank/quoteGenerator",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -13,7 +13,10 @@ export const Quote = ({quotes}) => {
         setText(quotes[randomNumber].text);
         setAuthor(quotes[randomNumber].author);
     }
-
+    const tweetQuote = () => {
+        const twitterUrl = `https://twitter.com/intent/tweet?text=${text} - ${author}`;
+        window.open(twitterUrl, "_blank");
+    }
     return (
         <div>
             <p className="quote">
@@ -22,8 +25,8 @@ export const Quote = ({quotes}) => {
             </p>
             <p className="quote__author">{author}</p>
             <div className="btn-container">
-                <TwitterBtn />
-                <NewQuoteBtn randomQuote={randomQuote}/>
+                <TwitterBtn tweetQuote={tweetQuote} />
+                <NewQuoteBtn randomQuote={randomQuote} />
             </div>
         </div>
     )

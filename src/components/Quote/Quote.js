@@ -10,8 +10,10 @@ export const Quote = ({quotes}) => {
 
 
     const randomQuote = () => {
-        setText(quotes[randomNumber].text);
-        setAuthor(quotes[randomNumber].author);
+        const quoteText = quotes[randomNumber].text;
+        const quoteAuthor = quotes[randomNumber].author;
+        setText(quoteText);
+        quoteAuthor ? setAuthor(quoteAuthor) : setAuthor("Unknow");
     }
     const tweetQuote = () => {
         const twitterUrl = `https://twitter.com/intent/tweet?text=${text} - ${author}`;

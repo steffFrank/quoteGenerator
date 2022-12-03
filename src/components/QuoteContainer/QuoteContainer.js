@@ -2,11 +2,11 @@ import React from "react";
 import "./quoteContainer.css";
 import { Quote } from "../Quote/Quote";
 
-export const QuoteContainer = () => {
-    
+export const QuoteContainer = ({quotes}) => {
+
     return (
         <div className="quote-container">
-            <Quote />
+            <Quote quotes={quotes}/>
         </div>
     )
 }

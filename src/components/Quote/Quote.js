@@ -4,16 +4,19 @@ import { NewQuoteBtn } from "../NewQuoteBtn/NewQuoteBtn";
 import { TwitterBtn } from "../TwitterBtn/TwitterBtn";
 
 export const Quote = ({quotes}) => {
-    const randomNumber = Math.floor(Math.random() * quotes.length);
+    const setRandomNumber = () => Math.floor(Math.random() * quotes.length);
+    const randomNumber = setRandomNumber();
     const [text, setText] = useState(quotes[randomNumber].text);
     const [author, setAuthor] = useState(quotes[randomNumber].author);
 
 
     const randomQuote = () => {
+        const randomNumber = setRandomNumber();
         const quoteText = quotes[randomNumber].text;
         const quoteAuthor = quotes[randomNumber].author;
+        console.log(quoteText);
         setText(quoteText);
-        quoteAuthor ? setAuthor(quoteAuthor) : setAuthor("Unknow");
+        quoteAuthor ? setAuthor(quoteAuthor) : setAuthor("Unknown");
     }
     const tweetQuote = () => {
         const twitterUrl = `https://twitter.com/intent/tweet?text=${text} - ${author}`;

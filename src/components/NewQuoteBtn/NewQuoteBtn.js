@@ -3,7 +3,10 @@ import "./newQuoteBtn.css";
 
 export const NewQuoteBtn = ({randomQuote}) => {
     return (
-        <button className="btn btn-quote" onClick={() => randomQuote()}>
+        <button className="btn btn-quote" onClick={() => { 
+            console.log("click")
+            randomQuote()}
+    }>
            New Quote
         </button>
     )
